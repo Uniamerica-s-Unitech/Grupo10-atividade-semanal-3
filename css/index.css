@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 #header {
 
 }
@@ -27,5 +30,105 @@
 }
 
 #sobre-nos figure {
+
+}
+#membros{
+    background-color: #FFFFFF;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+.article-tamannho{
+    height: 250px;
+}
+.formatacao-azul{
+    font: 18px Arial, Helvetica, sans-serif ;
+    color: #217BF4;
+    height: 1PX;
+}
+.formatacao-negreito{
+    font: bold 36px Arial, Helvetica, sans-serif ;
+    color: #0A093D; #656464;
+    height: 20PX;
+}
+.formatacao-de-texto-comum{
+    font: 400 16px Arial, Helvetica, sans-serif ;
+    color: #656464;
+}
+.menu-member{
+    width: 474px;
+    height: 72px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    bottom: 82px;
+}
+.menu-member-box{
+    width: 496px;
+    height: 72px;
+    background-color: #217BF4;
+    border-radius: 14px;
+    opacity: 0.06;
+}
+.menu-links{
+    width: 150px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2F2C4A;
+    font: 600 16px Arial, Helvetica, sans-serif  ;
+}
+.menu-links:hover{
+    background-color: #217BF4;
+    border-radius: 14px;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+.perfil{
+    width: 1300px ;
+    height: 490px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil-box{
+    width: 200px;
+    height: 316px;
+    padding: 50px;
+    background: #FFFFFF;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+}
+.perfil-box:hover{
+    width: 200px;
+    height: 316px;
+    padding: 50px;
+    transform: skew(2deg);
+    transform: translateY(-20px);
+    transition: 0.5s;
+    background: #b8d3f5;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+}
+.nome-perfil{
+    color: #2F2C4A;
+    font-size: 24px;
+    font-family: 'Inter';
+    height: 0px;
+}
+.id-perfil{
+    height: 0px;
+    position: relative;
+    bottom: 14px;
+    color: #656464;
+    font: 400 16px Arial, Helvetica, sans-serif  ;
 
 }
