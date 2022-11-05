@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     margin: 0px;
 }
@@ -32,6 +38,75 @@ body{
 #sobre-nos figure {
 
 }
+
+#publicidade {
+    background-color: #E5F0FD;
+    height: 100vh;
+}
+ 
+.title h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.1em, 2em + 1vw, 3em);
+    line-height: 52px;
+    color: #0A093D;
+    position: absolute;
+    margin-top: 30vh;
+    width: 69vh;
+    margin-left: 20vh;
+}                   
+
+.title h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
+    line-height: 18px;
+    color: #217BF4;
+    position: absolute;
+    margin-top: 27vh;
+    width: 60vh;
+    margin-left: 20vh;
+}                   
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
+    line-height: 26px;
+    color: #656464;
+    position: absolute;
+    margin-top: 50vh;
+    width: 54vh;
+    margin-left: 20vh;
+}
+
+ .celular {
+    position: absolute;
+    width: 40%;
+    margin-left: 126vh;
+}
+
+.store {
+    position: absolute;
+    margin-top: 70vh;
+    max-width: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16vh;
+
+}
+
+.play img{
+    position: absolute;
+    left: 30vh;
+    top: 3.5vh;
+}
+
 #membros{
     background-color: #FFFFFF;
     height: 775px;
@@ -51,7 +126,7 @@ body{
 }
 .formatacao-negreito{
     font: bold 36px Arial, Helvetica, sans-serif ;
-    color: #0A093D; #656464;
+    color: #0A093D;
     height: 20PX;
 }
 .formatacao-de-texto-comum{
