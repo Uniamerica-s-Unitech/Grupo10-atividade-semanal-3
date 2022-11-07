@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0px;
+    width: 100%;
 }
+
 #header {
 
 }
@@ -32,6 +36,101 @@ body{
 #sobre-nos figure {
 
 }
+
+#comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%,
+    #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+#comunidade main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#comunidade header {
+    width: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+#comunidade header p:first-child {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4
+}
+
+#comunidade header p:last-child {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    text-align: center;
+}
+
+#comunidade header h1 {
+    margin: 0;
+    margin: 9px 0 19px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+}
+
+#comunidade article {
+    display: flex;
+    align-items: center;
+    width: 522px;
+    height: 182px;
+    margin: 44px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+}
+
+#comunidade article figure {
+    margin: 75px 15px 76px 20px;
+}
+
+#comunidade article div {
+    width: 315px;
+}
+
+#comunidade article div h2 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+}
+
+#comunidade article div p {
+    margin: 0;
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464
+}
+
 #membros{
     background-color: #FFFFFF;
     height: 775px;
@@ -50,9 +149,9 @@ body{
     color: #217BF4;
     height: 1PX;
 }
-.formatacao-negreito{
+.formatacao-negreito {
     font: bold 36px Arial, Helvetica, sans-serif ;
-    color: #0A093D; #656464;
+    color: #0A093D;
     height: 20PX;
 }
 .formatacao-de-texto-comum{
@@ -193,3 +292,91 @@ body{
     cursor: pointer;
 }
 
+.pageFooter{
+    background-color: #2B2B39;
+    color: white;
+    font-family: Inter;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 78px;
+}
+.tableNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 668px;
+    height: 339px;
+      
+}
+.tableNav table{
+    height: 218px;
+    width: 339px;
+}
+.tableNav th{
+    font-size: 20px;
+    font-weight: 500;
+            padding-right: 100px;
+    white-space:nowrap
+}
+.tableNav td{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.subscription-text{
+    width: 339px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subscription-text h3{
+    font-weight: 500;
+    font-size: 20px;    
+}
+.subscription-text p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.subscription-text label{
+    border: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    justify-content:space-between;
+    height: 48px;
+}
+.subscription-text input{
+    background:transparent;
+    border:none;
+}
+.subscription-text ::placeholder{
+    padding-left: 15px;
+    font-family: Inter;
+    font-size: 14px;
+}
+.subscription-text button{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+}
+.subscription-text button p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+.true-footer{
+    font-family: Inter;
+    height: 96px;
+    background-color: #20202D;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
