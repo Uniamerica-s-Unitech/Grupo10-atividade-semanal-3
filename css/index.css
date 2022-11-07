@@ -150,12 +150,16 @@ body{
     justify-content: space-evenly;
     width: 668px;
     height: 445px;
-    
+      
+}
+.tableNav table{
+    height: 218px;
+    width: 339px;
 }
 .tableNav th{
     font-size: 20px;
     font-weight: 500;
-    padding-right: 100px;
+            padding-right: 100px;
     white-space:nowrap
 }
 .tableNav td{
@@ -163,13 +167,51 @@ body{
     font-weight: 400;
 
 }
-.subscription-form{
-   width: 339px;
-}
 .subscription-text{
-    
+    width: 339px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .subscription-text h3{
     font-weight: 500;
     font-size: 20px;    
+}
+.subscription-text p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.subscription-text label{
+    border: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    justify-content:space-between;
+    height: 48px;
+}
+.subscription-text input{
+    background:transparent;
+    border:none;
+}
+.subscription-text ::placeholder{
+    padding-left: 15px;
+    font-family: Inter;
+    font-size: 14px;
+}
+.subscription-text button{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+}
+.subscription-text button p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
 }
