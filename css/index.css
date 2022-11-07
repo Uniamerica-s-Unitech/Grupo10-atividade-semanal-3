@@ -149,7 +149,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 668px;
-    height: 445px;
+    height: 339px;
       
 }
 .tableNav table{
@@ -214,4 +214,14 @@ body{
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
+}
+.true-footer{
+    font-family: Inter;
+    height: 96px;
+    background-color: #20202D;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 }
