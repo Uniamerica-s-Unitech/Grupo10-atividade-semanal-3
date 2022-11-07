@@ -128,31 +128,11 @@ body{
     font-size: 16px;
 }
 
-#header {
-
-}
-
-#header nav {
-
-}
-
-#home {
-
-}
-
-#home article {
-
-}
-
-#home figure {
-
-}
-
 #sobre-nos {
     background-color: #ffff;
     height: 100vh;
 }
- 
+
 .netbok h1{
     font-family: 'Inter';
     font-style: normal;
@@ -192,7 +172,7 @@ body{
     margin-left: 20vh;
 }
 
- .celular {
+.celular {
     position: absolute;
     width: 40%;
     margin-left: 126vh;
@@ -232,7 +212,7 @@ body{
     content: '\2022';
     margin: 0 2px;
     color: #217BF4 
-   }
+}
 
 .reuniao {
     position: absolute;
@@ -253,19 +233,6 @@ body{
     margin-top: 7vh;
     width: 20%;
     margin-left: 150vh;
-}
-
-#sobre-nos article {
-
-}
-
-#sobre-nos figure {
-
-}
-
-#publicidade {
-    background-color: #E5F0FD;
-    height: 100vh;
 }
 
 #comunidade {
@@ -369,7 +336,6 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-   
 }
 
 .article-tamannho{
@@ -464,48 +430,13 @@ body{
     margin-left: 20vh;
 }                   
 
-.title h2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
-    line-height: 18px;
-    color: #217BF4;
-    position: absolute;
-    margin-top: 27vh;
-    width: 60vh;
-    margin-left: 20vh;
-}                   
-
-.text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
-    line-height: 26px;
-    color: #656464;
-    position: absolute;
-    margin-top: 50vh;
-    width: 54vh;
-    margin-left: 20vh;
-}
-
- .celular {
-    position: absolute;
-    width: 40%;
-    margin-left: 126vh;
-}
-
-.store {
-    position: absolute;
-    margin-top: 70vh;
-    max-width: 450px;
+#ultimas-noticias{
+    background-color: #FFFFFF;
+    height: 863px;
     display: flex;
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 16vh;
-
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .play img{
@@ -514,15 +445,6 @@ body{
     top: 3.5vh;
 }
 
-#ultimas-noticias{
-    background-color: #FFFFFF;
-    height: 863px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    
-}
 .noticias-imgs-box{
     width: 1183px;
     height: 400px;
@@ -587,7 +509,6 @@ body{
     justify-content: space-evenly;
     width: 668px;
     height: 339px;
-      
 }
 .tableNav table{
     height: 218px;
