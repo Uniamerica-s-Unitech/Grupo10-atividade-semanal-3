@@ -132,3 +132,8 @@ body{
     font: 400 16px Arial, Helvetica, sans-serif  ;
 
 }
+#nav-footer {
+    width: 100%;
+    height: 445px;
+    display: flex;
+}
