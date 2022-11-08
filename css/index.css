@@ -235,6 +235,122 @@ body{
     margin-left: 150vh;
 }
 
+.avaliacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+.avaliacoes h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+}
+.avaliacoes h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.avaliacoes p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8C8C8C;
+    padding-right: 18px;
+}
+.avaliacoes span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #217BF4;
+    margin-right: 5px;
+}
+.avaliacoes h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5D5B70;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.avaliacoes h4{ 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #217BF4;
+}
+#people-img{
+    width: 60px;
+}
+#GITHUB-logo{
+    width: 24px;
+}
+#go-to-awards{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.rating-cards{
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    width: 336px;
+    height: 340px;
+    padding-left: 44px;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.discover-cards{
+    border: none;
+    height: 340px;
+    padding-left: 44px;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.discover-cards p{
+    margin-right: 10px;
+}
+.avaliacoes button{
+    background-color: #217BF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: none;
+    border-radius: 14px;
+    width: 192px;
+}
+#botao-text{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
 #comunidade {
     display: flex;
     flex-direction: column;
@@ -338,8 +454,8 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
+   
 }
-
 .article-tamannho{
     height: 250px;
 }
@@ -347,8 +463,9 @@ body{
     font: 18px Arial, Helvetica, sans-serif ;
     color: #217BF4;
     height: 1PX;
+    margin-top: 120px;
 }
-.formatacao-negreito {
+.formatacao-negreito{
     font: bold 36px Arial, Helvetica, sans-serif ;
     color: #0A093D;
     height: 20PX;
@@ -421,16 +538,53 @@ body{
     color: #2F2C4A;
     font-size: 24px;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: clamp(0.1em, 2em + 1vw, 3em);
-    line-height: 52px;
+    height: 0px;
+}
+.id-perfil{
+    height: 0px;
+    position: relative;
+    bottom: 14px;
+    color: #656464;
+    font: 400 16px Arial, Helvetica, sans-serif  ;
+}
+
+#publicidade{
+    background-color: #E5F0FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+}
+.phone-stores{
+    font-family: Inter;
+    width: 351px;
+}
+.phone-stores h1{
+    font-size: 36px;
     color: #0A093D;
-    position: absolute;
-    margin-top: 30vh;
-    width: 69vh;
-    margin-left: 20vh;
-}                   
+    font-weight: 700;
+}
+.phone-stores h3{
+    font-size:18px;
+    color:#217BF4;
+    font-weight: 500;
+
+}
+.phone-stores p{
+    font-size:16px;
+    color:#656464;
+    font-weight: 400;
+}
+.phone-store-imgs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.big-phone{
+    margin: 0;
+    padding: 0;
+}
 
 #ultimas-noticias{
     background-color: #FFFFFF;
