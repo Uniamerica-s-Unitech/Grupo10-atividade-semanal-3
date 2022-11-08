@@ -1,37 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0px;
-}
-#header {
-
+    width: 100%;
 }
 
-#header nav {
-
+*{
+    font-family: inter;
 }
 
-#home {
-
+#div{
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    padding-bottom: 85.5px;
 }
 
-#home article {
-
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
 }
 
-#home figure {
+#hr{
+    border: 1px solid #217BF4;
+    padding: 0%;
+}
 
+#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Width: 123px;
+    Height: 50px;
+    background: #217BF4;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cor{
+    color: #2B2B39;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cor1{
+    color: #656464;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ordem{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+#article{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#article1{
+    display: flex;
+    gap: 20px;
+}
+
+#botao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: #217BF4;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.size{
+    font-weight: 700;
+    font-size: 60px;
+    color: #0A093D;
+}
+
+.size1{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: none;
+    color: #656464;
+}
+
+.foto{
+    padding-left: 98px;
+}
+
+#botao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 62px;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+#botao3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 62px;
+    border: 1px solid #217BF4;
+    border-radius: 14px;
+    color: #217BF4;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 #sobre-nos {
+    background-color: #ffff;
+    height: 100vh;
+}
+
+.netbok h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.1em, 2em + 1vw, 3em);
+    line-height: 52px;
+    color: #0A093D;
+    position: absolute;
+    margin-top: 30vh;
+    width: 78vh;
+    margin-left: 20vh;
+}                   
+
+.netbok h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
+    line-height: 18px;
+    color: #217BF4;
+    position: absolute;
+    margin-top: 27vh;
+    width: 60vh;
+    margin-left: 20vh;
+}                   
+
+.text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
+    line-height: 26px;
+    color: #656464;
+    position: absolute;
+    margin-top: 50vh;
+    width: 54vh;
+    margin-left: 20vh;
+}
+
+.celular {
+    position: absolute;
+    width: 40%;
+    margin-left: 126vh;
+}
+
+.store {
+    position: absolute;
+    margin-top: 70vh;
+    max-width: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16vh;
 
 }
 
-#sobre-nos article {
-
+.play img{
+    position: absolute;
+    left: 30vh;
+    top: 3.5vh;
 }
 
-#sobre-nos figure {
+.list1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(0.1em, 0.2em + 1vw, 1.5em);
+    line-height: 18px;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: 70vh;
+    list-style: none;
 
 }
+.list1 li:before {
+    content: '\2022';
+    margin: 0 2px;
+    color: #217BF4 
+}
+
+.reuniao {
+    position: absolute;
+    margin-top: 20vh;
+    width: 20%;
+    margin-left: 100vh;
+}
+
+.cabos{
+    position: absolute;
+    margin-top: 50vh;
+    width: 20%;
+    margin-left: 150vh;
+}
+
+.notbook{
+    position: absolute;
+    margin-top: 7vh;
+    width: 20%;
+    margin-left: 150vh;
+}
+
+.avaliacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+.avaliacoes h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+}
+.avaliacoes h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.avaliacoes p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8C8C8C;
+    padding-right: 18px;
+}
+.avaliacoes span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #217BF4;
+    margin-right: 5px;
+}
+.avaliacoes h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5D5B70;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.avaliacoes h4{ 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #217BF4;
+}
+#people-img{
+    width: 60px;
+}
+#GITHUB-logo{
+    width: 24px;
+}
+#go-to-awards{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.rating-cards{
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    width: 336px;
+    height: 340px;
+    padding-left: 44px;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.discover-cards{
+    border: none;
+    height: 340px;
+    padding-left: 44px;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.discover-cards p{
+    margin-right: 10px;
+}
+.avaliacoes button{
+    background-color: #217BF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: none;
+    border-radius: 14px;
+    width: 192px;
+}
+#botao-text{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+#comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%,
+    #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+#comunidade main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 173px;
+    width: 1224px;
+}
+
+#comunidade header {
+    width: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+#comunidade header p:first-child {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4
+}
+
+#comunidade header p:last-child {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    text-align: center;
+}
+
+#comunidade header h1 {
+    margin: 0;
+    margin: 9px 0 19px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+}
+
+#comunidade article {
+    display: flex;
+    align-items: center;
+    width: 522px;
+    height: 182px;
+    margin: 44px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+}
+
+#comunidade article figure {
+    margin: 75px 15px 76px 20px;
+}
+
+#comunidade article div {
+    width: 315px;
+}
+
+#comunidade article div h2 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+}
+
+#comunidade article div p {
+    margin: 0;
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464
+}
+
 #membros{
     background-color: #FFFFFF;
     height: 775px;
@@ -48,10 +463,11 @@ body{
     font: 18px Arial, Helvetica, sans-serif ;
     color: #217BF4;
     height: 1PX;
+    margin-top: 120px;
 }
 .formatacao-negreito{
     font: bold 36px Arial, Helvetica, sans-serif ;
-    color: #0A093D; #656464;
+    color: #0A093D;
     height: 20PX;
 }
 .formatacao-de-texto-comum{
@@ -130,5 +546,196 @@ body{
     bottom: 14px;
     color: #656464;
     font: 400 16px Arial, Helvetica, sans-serif  ;
+}
 
+#publicidade{
+    background-color: #E5F0FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+}
+.phone-stores{
+    font-family: Inter;
+    width: 351px;
+}
+.phone-stores h1{
+    font-size: 36px;
+    color: #0A093D;
+    font-weight: 700;
+}
+.phone-stores h3{
+    font-size:18px;
+    color:#217BF4;
+    font-weight: 500;
+
+}
+.phone-stores p{
+    font-size:16px;
+    color:#656464;
+    font-weight: 400;
+}
+.phone-store-imgs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.big-phone{
+    margin: 0;
+    padding: 0;
+}
+
+#ultimas-noticias{
+    background-color: #FFFFFF;
+    height: 863px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.play img{
+    position: absolute;
+    left: 30vh;
+    top: 3.5vh;
+}
+
+.noticias-imgs-box{
+    width: 1183px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.noticia-box{
+    height: 400px;
+    text-align: center;
+}
+.texto-linha{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.hr-formatacao{  
+    width:39px ;
+    background-color: #FFAF2E;
+    border: 1px solid #FFAF2E  ;
+
+}
+.texto-noticias{
+    text-align: start;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2F2C4A;
+    height: 10px;
+    z-index: 2;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+.link-noticias{
+    width: 150px;
+    color: #656464;
+    position: relative;
+    bottom: -10px;
+    right: -50px ;
+}
+.link-noticias:hover{
+    color: #217BF4;
+    position: relative;
+    bottom: -10px;
+    right: -50px ;
+    cursor: pointer;
+}
+
+.pageFooter{
+    background-color: #2B2B39;
+    color: white;
+    font-family: Inter;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 78px;
+}
+.tableNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 668px;
+    height: 339px;
+}
+.tableNav table{
+    height: 218px;
+    width: 339px;
+}
+.tableNav th{
+    font-size: 20px;
+    font-weight: 500;
+            padding-right: 100px;
+    white-space:nowrap
+}
+.tableNav td{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.subscription-text{
+    width: 339px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subscription-text h3{
+    font-weight: 500;
+    font-size: 20px;    
+}
+.subscription-text p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.subscription-text label{
+    border: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    justify-content:space-between;
+    height: 48px;
+}
+.subscription-text input{
+    background:transparent;
+    border:none;
+}
+.subscription-text ::placeholder{
+    padding-left: 15px;
+    font-family: Inter;
+    font-size: 14px;
+}
+.subscription-text button{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+}
+.subscription-text button p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+.true-footer{
+    font-family: Inter;
+    height: 96px;
+    background-color: #20202D;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 }
